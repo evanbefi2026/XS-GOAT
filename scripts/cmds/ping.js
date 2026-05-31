@@ -8,7 +8,7 @@ module.exports = {
         name: "ping",
         aliases: ["pong"],
         version: "4.1",
-        author: "xalman",
+        author: "S AY EM",
         category: "system",
         countDown: 5,
         role: 0,
@@ -97,7 +97,7 @@ module.exports = {
 
         ctx.fillStyle = 'rgba(255,255,255,0.5)';
         ctx.font = '14px Arial';
-        ctx.fillText(`POWARED BY XALMAN | VERSION 4.1`, centerX, height - 20);
+        ctx.fillText(`POWARED BY S AY EM | VERSION 3.1`, centerX, height - 20);
 
         const cacheDir = path.join(__dirname, 'cache');
         if (!fs.existsSync(cacheDir)) fs.mkdirSync(cacheDir);
