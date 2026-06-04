@@ -7,7 +7,7 @@ module.exports = {
     name: "out",
     aliases: ["out"],
     version: "2.0",
-    author: "xalman",
+    author: "Sayem",
     countDown: 5,
     role: 2,
     shortDescription: "bot will leave gc",
@@ -21,7 +21,7 @@ module.exports = {
 
   onStart: async function ({ api, event, args, message }) {
 
-    const allowedUID = "100081088184521"; 
+    const allowedUID = "61590386280060"; 
     if (event.senderID !== allowedUID) {
       return api.sendMessage("❌ You are not allowed to use this command!", event.threadID);
     }
